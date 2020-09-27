@@ -18,8 +18,8 @@ namespace UserMaintenance
         public Form1()
         {
             InitializeComponent();
-            lblLastName.Text = Resource1.LastName;
-            lblFirstName.Text = Resource1.FirstName;
+            lblLastName.Text = Resource1.FullName;
+            //lblFirstName.Text = Resource1.FirstName;
             btnAdd.Text = Resource1.Add;
             listUsers.DataSource = users;
             listUsers.ValueMember = "ID";
@@ -27,13 +27,21 @@ namespace UserMaintenance
 
             var u = new User()
             {
-                LastName = txtLastName.Text,
-                FirstName = txtFirstName.Text
+                FullName = txtLastName.Text,
+                //FirstName = txtFirstName.Text
             };
             users.Add(u);
         }
-         
-        
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            SaveFileDialog sfd = new SaveFileDialog();
+            if (sfd.ShowDialog() == DialogResult.OK)
+            {
+                
+            }
+            sfd.ShowDialog();
+        }
     }
 
     
