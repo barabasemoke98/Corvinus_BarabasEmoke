@@ -31,7 +31,9 @@ namespace UserMaintenance {
         [global::System.Diagnostics.CodeAnalysis.SuppressMessageAttribute("Microsoft.Performance", "CA1811:AvoidUncalledPrivateCode")]
         internal Resource1() {
         }
-        
+
+        public static string FullName { get; internal set; }
+
         /// <summary>
         ///   Returns the cached ResourceManager instance used by this class.
         /// </summary>
@@ -61,7 +63,7 @@ namespace UserMaintenance {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Kiírás.
+        ///   Looks up a localized string similar to Hozzáadás.
         /// </summary>
         internal static string Add {
             get {
@@ -70,20 +72,20 @@ namespace UserMaintenance {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Teljesnév.
+        ///   Looks up a localized string similar to Utónév.
         /// </summary>
-        internal static string FullName {
+        internal static string FirstName {
             get {
-                return ResourceManager.GetString("FullName", resourceCulture);
+                return ResourceManager.GetString("FirstName", resourceCulture);
             }
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Fájlba írás.
+        ///   Looks up a localized string similar to Vezetéknév.
         /// </summary>
-        internal static string Save {
+        internal static string LastName {
             get {
-                return ResourceManager.GetString("Save", resourceCulture);
+                return ResourceManager.GetString("LastName", resourceCulture);
             }
         }
     }
