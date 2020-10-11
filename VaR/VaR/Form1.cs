@@ -70,6 +70,23 @@ namespace VaR
                                       select x)
                                         .ToList();
             MessageBox.Show(nyereségekRendezve[nyereségekRendezve.Count() / 5].ToString());
+
+            SaveFileDialog sfd = new SaveFileDialog();
+            if (sfd.ShowDialog() == DialogResult.OK)
+            {
+                StreamWriter sw = new StreamWriter(sfd.FileName);
+                sw.Write("Időszak;");
+                sw.WriteLine("Nyereség");
+                int x = 1;
+                foreach (var s in nyereségekRendezve)
+                {
+                    sw.Write(x);
+                    sw.Write(";");
+                    sw.WriteLine(s);
+                    x++;
+                }
+                sw.Close();
+            }
         }
     }
 }
