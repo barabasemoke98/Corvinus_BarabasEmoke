@@ -31,20 +31,20 @@ namespace gyak6
 
             dataGridView1.DataSource = Rates;
 
-            var xml = new XmlDocument();
-            xml.LoadXml(result);
-            chartRateData.DataSource = Rates;
-            var mnbService = new MNBArfolyamServiceSoapClient();
-
-
             var request = new GetExchangeRatesRequestBody()
             {
                 currencyNames = "EUR",
                 startDate = "2020-01-01",
                 endDate = "2020-06-30"
             };
+            var mnbService = new MNBArfolyamServiceSoapClient();
             var response = mnbService.GetExchangeRates(request);
             var result = response.GetExchangeRatesResult;
+
+            var xml = new XmlDocument();
+            xml.LoadXml(result);
+            
+            chartRateData.DataSource = Rates;
 
             foreach (XmlElement element in xml.DocumentElement)
             {
