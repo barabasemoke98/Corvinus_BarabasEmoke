@@ -4,16 +4,15 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace gyak6
+namespace gyak6.Entities
 {
-    class Entities
+    class RateData
     {
-        public class RateData
-        {
-            public DateTime Date;
+      
+            public DateTime Date { get; set; }
             public string Currency { get; set; }
             public decimal Value { get; set; }
 
-        }
+        
     }
 }
