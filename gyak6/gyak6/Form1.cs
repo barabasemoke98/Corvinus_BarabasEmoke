@@ -23,8 +23,6 @@ namespace gyak6
 
             InitializeComponent();
 
-            public new BindingList Rates = new BindingList();
-
             var mnbService = new MNBArfolyamServiceSoapClient();
             var request = new GetExchangeRatesRequestBody()
             {
