@@ -55,6 +55,7 @@
       <DependentUpon>Reference.svcmap</DependentUpon>
     </Compile>
     <Compile Include="Entities.cs" />
+    <Compile Include="Entities\RateData.cs" />
     <Compile Include="Form1.cs">
       <SubType>Form</SubType>
     </Compile>
