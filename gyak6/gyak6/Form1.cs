@@ -20,6 +20,8 @@ namespace gyak6
         RateData context = new RateData();
         BindingList<RateData> Rates = new BindingList<RateData>();
 
+        
+
         public Form1()
         {
             InitializeComponent();
