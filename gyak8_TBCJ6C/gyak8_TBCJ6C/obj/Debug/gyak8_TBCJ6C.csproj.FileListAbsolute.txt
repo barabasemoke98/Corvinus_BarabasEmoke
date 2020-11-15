@@ -1,0 +1,10 @@
+F:\Corvinus\5. félév\IRF\git\gyak8_TBCJ6C\gyak8_TBCJ6C\bin\Debug\gyak8_TBCJ6C.exe.config
+F:\Corvinus\5. félév\IRF\git\gyak8_TBCJ6C\gyak8_TBCJ6C\bin\Debug\gyak8_TBCJ6C.exe
+F:\Corvinus\5. félév\IRF\git\gyak8_TBCJ6C\gyak8_TBCJ6C\bin\Debug\gyak8_TBCJ6C.pdb
+F:\Corvinus\5. félév\IRF\git\gyak8_TBCJ6C\gyak8_TBCJ6C\obj\Debug\gyak8_TBCJ6C.csprojAssemblyReference.cache
+F:\Corvinus\5. félév\IRF\git\gyak8_TBCJ6C\gyak8_TBCJ6C\obj\Debug\gyak8_TBCJ6C.Form1.resources
+F:\Corvinus\5. félév\IRF\git\gyak8_TBCJ6C\gyak8_TBCJ6C\obj\Debug\gyak8_TBCJ6C.Properties.Resources.resources
+F:\Corvinus\5. félév\IRF\git\gyak8_TBCJ6C\gyak8_TBCJ6C\obj\Debug\gyak8_TBCJ6C.csproj.GenerateResource.cache
+F:\Corvinus\5. félév\IRF\git\gyak8_TBCJ6C\gyak8_TBCJ6C\obj\Debug\gyak8_TBCJ6C.csproj.CoreCompileInputs.cache
+F:\Corvinus\5. félév\IRF\git\gyak8_TBCJ6C\gyak8_TBCJ6C\obj\Debug\gyak8_TBCJ6C.exe
+F:\Corvinus\5. félév\IRF\git\gyak8_TBCJ6C\gyak8_TBCJ6C\obj\Debug\gyak8_TBCJ6C.pdb
