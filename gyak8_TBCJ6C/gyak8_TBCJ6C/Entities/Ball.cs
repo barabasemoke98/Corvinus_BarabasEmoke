@@ -6,6 +6,7 @@ using System.Drawing;
 using System.Text;
 using System.Threading.Tasks;
 using gyak8_TBCJ6C.Abstractions;
+using gyak8_TBCJ6C.Entities;
 
 namespace gyak8_TBCJ6C.Entities
 {

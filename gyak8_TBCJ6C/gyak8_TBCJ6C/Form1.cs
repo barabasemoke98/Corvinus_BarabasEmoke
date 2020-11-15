@@ -1,4 +1,5 @@
-﻿using gyak8_TBCJ6C.Entities;
+﻿using gyak8_TBCJ6C.Abstractions;
+using gyak8_TBCJ6C.Entities;
 using System;
 using System.Collections.Generic;
 using System.ComponentModel;
@@ -41,7 +42,7 @@ namespace gyak8_TBCJ6C
             var maxPosition = 0;
             foreach (var ball in _balls)
             {
-                ball.MoveBall();
+                ball.MoveToy();
                 if (ball.Left > maxPosition)
                     maxPosition = ball.Left;
             }

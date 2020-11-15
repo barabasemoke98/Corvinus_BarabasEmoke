@@ -5,6 +5,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 using System.Drawing;
+using gyak8_TBCJ6C.Entities;
 
 namespace gyak8_TBCJ6C.Abstractions
 {

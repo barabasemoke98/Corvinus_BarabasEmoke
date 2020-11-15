@@ -1,4 +1,5 @@
-﻿using gyak8_TBCJ6C.Abstractions;
+﻿using gyak8_TBCJ6C.Entities;
+using gyak8_TBCJ6C.Abstractions;
 using System;
 using System.Collections.Generic;
 using System.Linq;

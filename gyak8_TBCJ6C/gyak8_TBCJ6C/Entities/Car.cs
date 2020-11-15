@@ -1,4 +1,5 @@
-﻿using gyak8_TBCJ6C.Abstractions;
+﻿using gyak8_TBCJ6C.Entities;
+using gyak8_TBCJ6C.Abstractions;
 using System;
 using System.Collections.Generic;
 using System.Drawing;
@@ -8,7 +9,7 @@ using System.Threading.Tasks;
 
 namespace gyak8_TBCJ6C.Entities
 {
-    class Car : Toy
+    public class Car : Toy
     {
         protected override void DrawImage(Graphics g)
         {
