@@ -9,3 +9,4 @@ F:\Corvinus\5. félév\IRF\git\gyak10_TBCJ6C\gyak10_TBCJ6C\obj\Debug\gyak10_TBCJ
 F:\Corvinus\5. félév\IRF\git\gyak10_TBCJ6C\gyak10_TBCJ6C\obj\Debug\gyak10_TBCJ6C.csproj.CopyComplete
 F:\Corvinus\5. félév\IRF\git\gyak10_TBCJ6C\gyak10_TBCJ6C\obj\Debug\gyak10_TBCJ6C.exe
 F:\Corvinus\5. félév\IRF\git\gyak10_TBCJ6C\gyak10_TBCJ6C\obj\Debug\gyak10_TBCJ6C.pdb
+F:\Corvinus\5. félév\IRF\git\gyak10_TBCJ6C\gyak10_TBCJ6C\obj\Debug\gyak10_TBCJ6C.Form1.resources
